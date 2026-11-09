@@ -1,0 +1,3 @@
+Unmodified OpenCV 5.0.0 source from https://github.com/opencv/opencv/releases/tag/5.0.0
+Archive SHA256 e2abaa1ea2443fb163299369506521518ee02d8e51b88a144a128c4e492123bd
+Static build, core/imgproc/video and required dependencies, IPP/OpenCL/ITT disabled.

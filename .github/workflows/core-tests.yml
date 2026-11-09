@@ -1,0 +1,16 @@
+name: Core regression tests
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  core:
+    runs-on: windows-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run SDK-independent C++ checks
+        shell: cmd
+        run: tools\run-core-tests.cmd
